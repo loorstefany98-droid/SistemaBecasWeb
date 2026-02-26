@@ -23,5 +23,10 @@ namespace SistemaBecasWeb.Controllers
         {
             return View();
         }
+
+        public ActionResult postulacion_beca()
+        {
+            return View();
+        }
     }
 }
