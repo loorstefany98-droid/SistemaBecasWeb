@@ -185,6 +185,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Acceso\Autenticar.cshtml" />
     <Content Include="Views\Acceso\Registros.cshtml" />
+    <Content Include="Views\Acceso\datos_academicos.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
