@@ -17,6 +17,11 @@ namespace SistemaBecasWeb.Controllers
         public ActionResult Registros()
         {
             return View();
+
+        }
+        public ActionResult datos_academicos()
+        {
+            return View();
         }
     }
 }
