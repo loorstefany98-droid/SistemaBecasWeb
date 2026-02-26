@@ -13,5 +13,10 @@ namespace SistemaBecasWeb.Controllers
         {
             return View();
         }
+
+        public ActionResult Registros()
+        {
+            return View();
+        }
     }
 }
