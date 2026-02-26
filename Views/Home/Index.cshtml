@@ -1,33 +1,36 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "INICIO";
 }
 
-<main>
-    <section class="row" aria-labelledby="aspnetTitle">
-        <h1 id="title">ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-        <p><a href="https://asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
-    </section>
+<link rel="stylesheet" href="@Url.Content("~/Content/css/Index.css")" />
 
-    <div class="row">
-        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-            <h2 id="gettingStartedTitle">Getting started</h2>
-            <p>
-                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-                enables a clean separation of concerns and gives you full control over markup
-                for enjoyable, agile development.
-            </p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="librariesTitle">
-            <h2 id="librariesTitle">Get more libraries</h2>
-            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="hostingTitle">
-            <h2 id="hostingTitle">Web Hosting</h2>
-            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-        </section>
+<div class="franja-superior">
+    <h1>SISTEMA DE BECAS.NET</h1>
+    <p>Bienvenidos al portal oficial de gestión de ayudas académicas.</p>
+</div>
+
+<div class="contenedor-inicio">
+
+    <div class="seccion-info">
+        <div class="tarjeta-info">
+            <div class="icono">🎓</div>
+            <h3>Comenzando</h3>
+            <p><em>Este programa te ofrece una oportunidad valiosa para desarrollar tus habilidades académicas y profesionales de forma sencilla.</em></p>
+        </div>
+
+        <div class="tarjeta-info">
+            <div class="icono">🤝</div>
+            <h3>Más Oportunidades</h3>
+            <p><em>Nuestro programa de becas te permitirá postularte, actualizar y gestionar fácilmente tus metas para el futuro.</em></p>
+        </div>
     </div>
-</main>
+
+    <div class="seccion-botones">
+        <a href="@Url.Action("Autenticar", "Acceso")" class="btn-vino">Iniciar Sesión</a>
+        <p>
+
+        </p>
+        <a href="@Url.Action("Registros", "Acceso")" class="btn-azul">Registrarse Ahora</a>
+    </div>
+
+</div>
